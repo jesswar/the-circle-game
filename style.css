@@ -2,9 +2,6 @@ body, html
 {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient (bottom, #F3ECE2, #FDF9F0);
-	background: -webkit-linear-gradient (bottom, #F3ECE2, #FDF9F0);
-	
 
 }
 
@@ -15,8 +12,9 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient (bottom, #F3ECE2, #FDF9F0);
-	background: -webkit-linear-gradient (bottom, #F3ECE2, #FDF9F0);
+	background: linear-gradient(bottom, #D4C1A7 10%, #E0D5C5, #FDF9F0);
+	background: -webkit-linear-gradient(bottom, #D4C1A7 10%, #E0D5C5, #FDF9F0);
+	background: -moz-linear-gradient(bottom, #D4C1A7 10%, #E0D5C5, #FDF9F0);
 }
 
 
@@ -28,25 +26,47 @@ body {
 	flex-wrap: wrap;
 }
 
+.rounds {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 
 h1 {
+	color: #9C6755;
+	font-family: 'Lato', sans-serif;
+	font-style: bold;
+	text-transform: lowercase;
+	font-size: 80px;
+	letter-spacing: 10px;
 
 }
 
 h2 {
+	color: #9C6755;
+	font-family: 'Lato', sans-serif;
+	text-transform: lowercase;
+	letter-spacing: 2px;
 
 }
 
 .circle {
-	height: 100px;
-	width: 100px;
-	border-radius: 50px;
-	background: red;
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	background: #AB7B6F;
+	box-shadow: inset 2px 2px 1px 1px #B59993,  inset -1px -1px 1px 2px #966D63, 0px 1px 4px 2px #C2BCB4;
+	margin: 150px 300px 150px 300px;
 }
 
 .holder {
-	height: 110px;
-	width: 110px;
-	border-radius: 55px;
-	background: red;
+	height: 210px;
+	width: 210px;
+	border-radius: 155px;
+	background: #7E5F64;
+	box-shadow: inset -2px -2px 15px 5px #6B4D52, inset 0px 0px 0px 2px #6B4D52, 0 0 20px 3px #F0EBE1;
+	margin: 150px 300px 150px 300px;
+
 }
