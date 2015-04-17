@@ -11,9 +11,23 @@ console.log( 'I am javascript.' );
 
 
 
-var myCircle = document.getElementById(‘circle’);
 
- function moveit(dmove, gtop, gleft, numvalid){
-	dmove.style.top = gtop.value + 'px';
-	dmove.style.left = gleft.value + 'px';
- }
+
+
+var myCircle = document.getElementById("circle");
+
+function startDrag() {
+	
+	console.log('you clicked');
+	
+}
+
+
+myCircle.addEventListener("click", startDrag, false);
+
+
+
+
+
+
+
